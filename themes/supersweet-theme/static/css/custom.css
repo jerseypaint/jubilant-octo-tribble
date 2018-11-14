@@ -368,15 +368,9 @@ margin:0 auto;
     }
 }
 
-/** Hide main until loaded Css */
 main {
-  opacity: 0;
+  display:none;
 }
-
-main.ready {
-  opacity: 1;
-}
-
 
 /** Loader courtesy of loading.io */
 .loader {
@@ -385,6 +379,7 @@ main.ready {
   right:0;
   width: 64px;
   height: 64px;
+  margin: 0 auto;
 }
 .loader div {
   position: absolute;
