@@ -80,6 +80,16 @@ label {
     transition: 300ms ease-in-out;
 }
 
+@media screen and (max-width:991px) {
+  .navbar-toggler {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #e20166;
+  }
+}
+
+
 .btn-outline-primary {
   color: inherit;
   border-color: inherit;
