@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle|Cabin|Chivo');
+
+@font-face {
+    font-family: Marvin-Visions;
+    src: url(/css/fonts/MarvinVisions-Bold.woff);
+}
+
+h1, h2, h3 {
+  font-family: 'Chicle', cursive;
+
+}
+
+h4, h5 {
+  font-family: 'Cabin', sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Chivo', sans-serif;
+}
+
+.navbar-brand {
+  font-family: Marvin-Visions;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px red;
+  color: white;
+  text-shadow:
+    3px 3px 0 red,
+  -1px -1px 0 red,
+   1px -1px 0 red,
+   -1px 1px 0 red,
+    1px 1px 0 red;
+}
+
+.navbar-brand:hover {
+  color:#000;
+  transition: 200ms ease-in;
+}
+
+.navbar > .container {
+  padding:0;
+}
+
+.navbar-toggler {
+  font-family: 'Chicle', cursive;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px #000;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+.btn-outline-primary {
+  color: inherit;
+  border-color: inherit;
+}
+
+.btn-outline-primary:hover {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-primary:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 .2rem rgba(0,000,000,.5);
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 0 .2rem rgba(225,225,255,.5);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(225,225,255,.5);
+}
+
+nav {
+  max-width:1000px;
+  margin:0 auto 2rem auto;
+  background:#3a3042;
+}
+
+
+body {
+    background:url("/img/bg.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 120px 1rem 1rem 1rem;
+}
+
+.offcanvas-collapse {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+    display:flex;
+}
+
+.offcanvas-collapse.open {
+    left: 0%;
+    visibility: visible;
+}
+
+.nav-link {
+  margin:2rem;
+  font-size: 3rem;
+  color:#fff;
+  font-family: 'Chicle', cursive;
+  -webkit-text-stroke: 1px rgba(0,0,0,0);
+  text-shadow:
+    3px 3px 0 rgba(0,0,0,0),
+  -1px -1px 0 rgba(0,0,0,0),
+   1px -1px 0 rgba(0,0,0,0),
+   -1px 1px 0 rgba(0,0,0,0),
+    1px 1px 0 rgba(0,0,0,0);
+}
+
+.nav-link:hover {
+  margin:2rem;
+  font-size: 3rem;
+  color:#fff;
+  font-family: 'Chicle', cursive;
+  -webkit-text-stroke: 1px red;
+  text-shadow:
+    3px 3px 0 red,
+  -1px -1px 0 red,
+   1px -1px 0 red,
+   -1px 1px 0 red,
+    1px 1px 0 red;
+    transition: 175ms ease-in;
+}
+
+.close-menu{
+  align-self: flex-start;
+  padding: 1rem;
+  order: 2;
+  }
+
+section, .section {
+    padding:1rem .5rem;
+    margin:2.5rem auto;
+    background: #fff;
+    max-width:1000px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+section .container {
+max-width:1000px;
+margin:0 auto;
+}
+
+.hero {
+    max-width:1000px;
+    margin:0 auto;
+    height:500px;
+    background: #333366;
+    color:#9CEC5B;
+    display: flex;
+    align-items: center;
+    }
+
+.about-me {
+    background: #ff5f5f;
+    color:#481D24;
+}
+
+.about-me img{
+  max-height:500px;
+}
+
+.feature-columns{
+    background: #f9e75e;
+    color:#330F0A;
+}
+
+.feature-columns .col-md{
+  text-align: center;
+  margin-bottom:1.5rem;
+}
+
+.feature-columns p {
+  text-align: left;
+}
+
+.portfolio{
+    background:#f0f0f0;
+}
+
+.portfolio .col-md-6 {
+margin-bottom:2.5rem;
+}
+
+.pricing-columns {
+    background: #333366;
+}
+
+.card {
+    border:none;
+}
+
+.card-header{
+    background: #AB9F9D;
+    color:#071E22;
+}
+
+.card-body{
+    background:#D1BEB0;
+}
+
+.footer {
+    background: #ff5f5f;
+}
+
+
+@media screen and (min-width:992px) {
+    body {
+      margin:90px auto 0 auto;
+      }
+    section, .section {
+      padding:5rem 2.5rem;
+    }
+
+    .navbar > .container {
+      justify-content: space-between;
+    }
+
+    .navbar-brand {
+      font-size: 2rem;
+    }
+
+    .navbar-toggler {
+      font-size: 2rem;
+    }
+
+    .offcanvas-collapse.open {
+      left: 50%;
+      visibility: visible;
+    }
+    .offcanvas-collapse {
+        width: 50%;
+    }
+
+    .close-menu{
+      padding: 2rem;
+      }
+
+    .hero {
+      display: inherit;
+    }
+
+    .hero .text {
+      padding-left:3rem;
+    }
+    .hero h1 {
+      font-size: 5rem;
+    }
+
+}

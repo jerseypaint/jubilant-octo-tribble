@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Super Sweet Sites"
+theme = "supersweet-theme" 
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10
+googleAnalytics = ""
+enableRobotsTXT = true
+pluralizeListTitles = false
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "We make websites that are super sweet."
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+  featured_image = ""
+  recent_posts_number = 2
+  custom_css = ["css/custom.css"]

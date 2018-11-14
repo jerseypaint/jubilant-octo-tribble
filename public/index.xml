@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Super Sweet Sites</title>
+    <link>/</link>
+    <description>Recent content on Super Sweet Sites</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Site 1</title>
+      <link>/portfolio/site1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/site1/</guid>
+      <description>&lt;p&gt;Site 1&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site 2</title>
+      <link>/portfolio/site2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/site2/</guid>
+      <description>&lt;p&gt;Site 2&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site 3</title>
+      <link>/portfolio/site3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/site3/</guid>
+      <description>&lt;p&gt;Site 3&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site 4</title>
+      <link>/portfolio/site4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/site4/</guid>
+      <description>&lt;p&gt;Site 4&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
